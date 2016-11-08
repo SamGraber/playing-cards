@@ -1,0 +1,6 @@
+# NPM modules
+/node_modules/
+
+# Built files
+/source/**/*.js
+/source/**/*d.ts

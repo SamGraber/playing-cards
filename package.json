@@ -1,0 +1,36 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/main.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc.watch": "tsc -w",
+    "lite": "lite-server",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "Typescript"
+  ],
+  "author": "Sam Graber",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~2.0.0",
+    "@angular/compiler": "~2.0.0",
+    "@angular/core": "~2.0.0",
+    "@angular/forms": "~2.0.0",
+    "@angular/http": "~2.0.0",
+    "@angular/platform-browser": "~2.0.0",
+    "@angular/platform-browser-dynamic": "~2.0.0",
+    "@types/core-js": "^0.9.34",
+    "@types/lodash": "^4.14.37",
+    "core-js": "^2.4.1",
+    "lite-server": "^2.2.2",
+    "lodash": "^4.16.4",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-rc.1",
+    "systemjs": "0.19.27",
+    "typescript": "^2.0.7",
+    "zone.js": "^0.6.12"
+  }
+}
