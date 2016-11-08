@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
 
+import { CardCollectionService } from './cardCollection.service';
+
 @Component({
 	moduleId: module.id,
 	selector: 'cd-card-collection',
@@ -8,6 +10,8 @@ import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
 export class CardCollectionComponent implements OnInit {
 	@ViewChild('aceClubs') aceClubs: TemplateRef<any>;
 	@ViewChild('tenClubs') tenClubs: TemplateRef<any>;
+
+	constructor(private cardCollectionService: CardCollectionService) {}
 
 	ngOnInit(): void {
 

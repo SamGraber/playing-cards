@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import { CardCollectionComponent }  from './cardCollection/cardCollection.component';
+import { CardCollectionService }  from './cardCollection/cardCollection.service';
 
 @NgModule({
 	imports: [BrowserModule],
@@ -10,7 +11,9 @@ import { CardCollectionComponent }  from './cardCollection/cardCollection.compon
 		AppComponent,
 		CardCollectionComponent,
 	],
-	providers: [],
+	providers: [
+		CardCollectionService,
+	],
 	bootstrap: [AppComponent],
 })
 export class AppModule { }
